@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+#glad{
+    background-image: linear-gradient(to top, rgb(161, 137, 91), white) ;
+}
+.padreIndex{
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    "nav header header header" 
+    "nav sec1 sec1 secundario"
+    "nav sec1 sec1 secundario"
+    "pie pie pie pie"
+    ;
+    grid-template-columns: 15% 1fr 1fr;
+    grid-template-columns: repeat(4,1fr);
+}
+.encabezado{
+  
+    grid-area: header;
+}
+.navBar{
+  
+    grid-area: nav;
+    text-align: center;
+  
+}
+
+    a{
+
+        text-decoration: none;
+        color: black(201, 201, 201);
+    }
+
+.seccion1{
+   
+    grid-area: sec1;
+}
+.secundario{
+   
+    grid-area: secundario;
+}
+.pie{
+   
+    grid-area: pie;
+}
+.galeria{
+  
+    grid-area: galeria;
+}
+.padreGaleria{
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    "nav header header header" 
+    "nav galeria galeria galeria "
+    "nav galeria galeria galeria"
+    "pie pie pie pie"
+    ;
+    grid-template-columns: 15% 1fr 1fr;
+    grid-template-columns: repeat(4,1fr);
+}
+.backgroundImage{
+    background-image: url(../images/taller.jpg);
+
+}
+.parallax{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15rem;
+    max-width: 100%;
+    position: relative;
+    text-align: center; }
+    .fondoBlanco{
+        background-color: white;
+    }
+    .fondoNegro{
+        background-color: black;
+    }
+    .letraBlanca{
+        color: rgb(201, 201, 201);
+    }
+    .reseniasCard{
+        width: 300px;
+        border: solid 1px black;
+        overflow: hidden;
+        border-radius: 15px;
+        padding: 10px;
+        text-align: center;
+    
+    }
+    .reseniasImagen{
+        width: 100%;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+    .letraNegra{
+        color: black;
+    }
+    .reseniasParrafo{
+        text-align: justify;
+    }
+    .imgGaleria{
+        width: 500px; 
+        height: 450px;
+        
+    }
+    .imgGaleria:hover {
+        transform: scale(1.2,1.2);
+    }
+    
+   
+    @media (max-width:768px){
+        .padreIndex{
+            grid-template-areas: 
+                            "nav header header " 
+                            "nav sec1 secundario"
+                            "nav sec1 secundario"
+                            "nav sec1 secundario"
+                            "nav sec1 secundario"
+                            "pie pie pie";
+        }
+    }
+    @media (max-width:360px){
+        .padreIndex{
+            grid-template-areas: 
+                            "header" 
+                            "nav"
+                            "sec1"
+                            "sec1"
+                            "secundario"
+                            "pie";
+    }
+}
+
+@media (min-width:361px) and (max-width:768px){
+    .padreIndex{
+        grid-template-areas: 
+                        "nav header header " 
+                        "nav sec1 secundario"
+                        "nav sec1 secundario"
+                        "nav sec1 secundario"
+                        "nav sec1 secundario"
+                        "pie pie pie";
+    }
+}
+@media (max-width:768){
+    .padreGaleria{
+        grid-template-areas: 
+        "nav header header" 
+        "nav galeria galeria"
+        "nav galeria galeria"
+        "pie pie pie"
+        ; 
+    }
+}
+@media (max-width:360px){
+    .padreGaleria{
+        grid-template-areas: 
+        "header" 
+        "nav"
+        "galeria"
+        "pie"
+        ; 
+    } 
+}
+@media (min-width:361px) and (max-width:768){
+    .padreGaleria{
+        grid-template-areas: 
+        "nav header" 
+        "nav galeria"
+        "nav galeria"
+        "pie pie"
+        ; 
+    }
+}
