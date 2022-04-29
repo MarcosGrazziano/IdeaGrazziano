@@ -114,7 +114,48 @@
     .imgGaleria:hover {
         transform: scale(1.2,1.2);
     }
-    
+    .padreContacto{
+        height: 100vh;
+        display: grid;
+        grid-template-areas: 
+        "nav header header header" 
+        "nav form form form"
+        "nav form form form"
+        "pie pie pie pie"
+        ;
+        grid-template-columns: 15% 1fr 1fr;
+        grid-template-columns: repeat(4,1fr);
+    }
+    .form{
+        grid-area: form;
+    }
+    @media (max-width:768px){
+        .padreGaleria{
+            grid-template-areas: 
+                            "nav header header" 
+                            "nav form form"
+                            "nav form form"
+                            "pie pie pie";
+        }
+    }
+    @media(max-width:360px){
+        .padreGaleria{
+            grid-template-areas: 
+                            "header" 
+                            "nav"
+                            "form"
+                            "pie";
+        }
+    }
+    @media (min-width:361px) and (max-width:768px){
+        .padreGaleria{
+            grid-template-areas: 
+                            "nav header header" 
+                            "nav form form"
+                            "nav form form"
+                            "pie pie pie";
+    }
+  }
    
     @media (max-width:768px){
         .padreIndex{
