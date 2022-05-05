@@ -11,9 +11,9 @@
     height: 100vh;
     display: grid;
     grid-template-areas: 
-    "nav header header header" 
-    "nav sec1 sec1 secundario"
-    "nav sec1 sec1 secundario"
+    "nav nav nav nav" 
+    "header header header secundario"
+    "sec1 sec1 sec1 secundario"
     "pie pie pie pie"
     ;
     grid-template-columns: 15% 1fr 1fr;
@@ -56,9 +56,9 @@
     height: 100vh;
     display: grid;
     grid-template-areas: 
-    "nav header header header" 
-    "nav galeria galeria galeria "
-    "nav galeria galeria galeria"
+    "nav nav nav nav" 
+    "header header header header "
+    "galeria galeria galeria galeria"
     "pie pie pie pie"
     ;
     grid-template-columns: 15% 1fr 1fr;
@@ -118,9 +118,9 @@
         height: 100vh;
         display: grid;
         grid-template-areas: 
-        "nav header header header" 
-        "nav form form form"
-        "nav form form form"
+        "nav nav nav nav" 
+        "header header header header"
+        "form form form form"
         "pie pie pie pie"
         ;
         grid-template-columns: 15% 1fr 1fr;
@@ -132,17 +132,17 @@
     @media (max-width:768px){
         .padreGaleria{
             grid-template-areas: 
-                            "nav header header" 
-                            "nav form form"
-                            "nav form form"
+                            "nav nav nav" 
+                            "header header header"
+                            "form form form"
                             "pie pie pie";
         }
     }
     @media(max-width:360px){
         .padreGaleria{
             grid-template-areas: 
-                            "header" 
-                            "nav"
+                            "nav" 
+                            "header"
                             "form"
                             "pie";
         }
@@ -150,9 +150,9 @@
     @media (min-width:361px) and (max-width:768px){
         .padreGaleria{
             grid-template-areas: 
-                            "nav header header" 
-                            "nav form form"
-                            "nav form form"
+                            "nav nav nav" 
+                            "header header header"
+                            "form form form"
                             "pie pie pie";
     }
   }
@@ -160,19 +160,19 @@
     @media (max-width:768px){
         .padreIndex{
             grid-template-areas: 
-                            "nav header header " 
-                            "nav sec1 secundario"
-                            "nav sec1 secundario"
-                            "nav sec1 secundario"
-                            "nav sec1 secundario"
+                            "nav nav nav" 
+                            "header header header"
+                            "sec1 sec1 secundario"
+                            "sec1 sec1 secundario"
+                            "sec1 sec1 secundario"
                             "pie pie pie";
         }
     }
     @media (max-width:360px){
         .padreIndex{
             grid-template-areas: 
-                            "header" 
-                            "nav"
+                            "nav" 
+                            "header"
                             "sec1"
                             "sec1"
                             "secundario"
@@ -183,20 +183,20 @@
 @media (min-width:361px) and (max-width:768px){
     .padreIndex{
         grid-template-areas: 
-                        "nav header header " 
-                        "nav sec1 secundario"
-                        "nav sec1 secundario"
-                        "nav sec1 secundario"
-                        "nav sec1 secundario"
+                        "nav nav nav" 
+                        "header header header"
+                        "sec1 sec1 secundario"
+                        "sec1 sec1 secundario"
+                        "sec1 sec1 secundario"
                         "pie pie pie";
     }
 }
 @media (max-width:768){
     .padreGaleria{
         grid-template-areas: 
-        "nav header header" 
-        "nav galeria galeria"
-        "nav galeria galeria"
+        "nav nav nav" 
+        "header header header"
+        "galeria galeria galeria"
         "pie pie pie"
         ; 
     }
@@ -204,8 +204,8 @@
 @media (max-width:360px){
     .padreGaleria{
         grid-template-areas: 
-        "header" 
-        "nav"
+        "nav" 
+        "header"
         "galeria"
         "pie"
         ; 
@@ -214,9 +214,9 @@
 @media (min-width:361px) and (max-width:768){
     .padreGaleria{
         grid-template-areas: 
-        "nav header" 
-        "nav galeria"
-        "nav galeria"
+        "nav nav" 
+        "header header"
+        "galeria galeria"
         "pie pie"
         ; 
     }
