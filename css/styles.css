@@ -206,7 +206,7 @@
 @media (max-width:768){
     .padreGaleria{
         grid-template-areas: 
-        "nav nav nav nav" 
+        "nav nav nav nav nav" 
         "header header header header"
         "galeria galeria galeria galeria"
         "pie pie pie pie"
@@ -216,7 +216,7 @@
 @media (max-width:360px){
     .padreGaleria{
         grid-template-areas: 
-        "nav nav nav nav" 
+        "nav nav nav nav nav" 
         "header header header header"
         "galeria galeria galeria galeria"
         "pie pie pie pie"
@@ -226,7 +226,7 @@
 @media (min-width:361px) and (max-width:768){
     .padreGaleria{
         grid-template-areas: 
-        "nav nav nav nav" 
+        "nav nav nav nav nav" 
         "header header header header"
         "galeria galeria galeria galeria"
         "pie pie pie pie"
