@@ -1,0 +1,72 @@
+.encabezado{
+  
+    grid-area: header;
+}
+.navBar{
+  
+    grid-area: nav;
+    text-align: center;
+  
+}
+.seccion1{
+   
+    grid-area: sec1;
+}
+.secundario{
+   
+    grid-area: secundario;
+}
+.pie{
+   
+    grid-area: pie;
+}
+.galeria{
+  
+    grid-area: galeria;
+}
+.form{
+    grid-area: form;
+}
+.linked a:hover{
+
+    background-color: powderblue;
+    }
+.letraNegra{
+        color: black;
+    }
+.fondoBlanco{
+        background-color: white;
+ }
+.fondoNegro{
+        background-color: black;
+    }
+.letraBlanca{
+        color: rgb(201, 201, 201);
+    }
+.parallax{
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 15rem;
+        max-width: 100%;
+        position: relative;
+        text-align: center; }
+
+.backgroundImage{
+            background-image: url(../images/taller.jpg);
+        
+        }
+
+a{
+
+            text-decoration: none;
+            color: black(201, 201, 201);
+        }
+#glad{
+            background-image: linear-gradient(to top, rgb(161, 137, 91), white) ;
+        }
+.linked a:hover{
+
+            background-color: powderblue;
+            }

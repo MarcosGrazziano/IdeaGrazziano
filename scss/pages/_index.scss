@@ -1,0 +1,26 @@
+.padreIndex{
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    "nav nav nav nav" 
+    "header header header secundario"
+    "sec1 sec1 sec1 secundario"
+    "pie pie pie pie"
+    ;
+    grid-template-columns: 15% 1fr 1fr;
+    grid-template-columns: repeat(4,1fr);
+}
+.reseniasCard{
+    width: 300px;
+    border: solid 1px black;
+    overflow: hidden;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+
+}
+.reseniasImagen{
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}

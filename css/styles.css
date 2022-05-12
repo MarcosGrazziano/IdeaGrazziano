@@ -126,18 +126,7 @@
         grid-template-columns: 15% 1fr 1fr;
         grid-template-columns: repeat(4,1fr);
     }
-    .padreContacto{
-        height: 100vh;
-        display: grid;
-        grid-template-areas: 
-        "nav nav nav nav" 
-        "header header header header"
-        "form form form form"
-        "pie pie pie pie"
-        ;
-        grid-template-columns: 15% 1fr 1fr;
-        grid-template-columns: repeat(4,1fr);
-    }
+   
     .form{
         grid-area: form;
     }

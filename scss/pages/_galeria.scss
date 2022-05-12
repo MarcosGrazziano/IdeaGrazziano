@@ -1,0 +1,23 @@
+.imgGaleria{
+    width: 500px; 
+    height: 450px;
+    
+}
+.imgGaleria:hover {
+    transform: scale(1.2,1.2);
+}
+.padreGaleria{
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    "nav nav nav nav" 
+    "header header header header "
+    "galeria galeria galeria galeria"
+    "pie pie pie pie"
+    ;
+    grid-template-columns: 15% 1fr 1fr;
+    grid-template-columns: repeat(4,1fr);
+}
+.galeriaCentrada{
+    text-align: center;
+}
