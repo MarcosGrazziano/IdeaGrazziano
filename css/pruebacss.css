@@ -107,6 +107,45 @@ a {
 .linked a:hover {
   background-color: powderblue; }
 
+.btn-primary {
+  background-color: blue; }
+
+.btn-secondary {
+  background-color: grey; }
+
+.btn-success {
+  background-color: green; }
+
+.btn-warning {
+  background-color: yellow; }
+
+.text-primary {
+  background-color: blue; }
+
+.text-secondary {
+  background-color: grey; }
+
+.text-success {
+  background-color: green; }
+
+.text-warning {
+  background-color: yellow; }
+
+.card {
+  background-color: #c9340f;
+  text-align: center;
+  padding: 1rem;
+  font-size: 35px; }
+
+h1 {
+  text-align: center;
+  color: #c9340f; }
+
+img {
+  border-radius: 15px;
+  width: 200px;
+  height: 150px; }
+
 @media (max-width: 768px) {
   .padreGaleria {
     grid-template-areas: "nav nav nav nav"  "header header header header" "galeria galeria galeria galeria" "pie pie pie pie"; } }
