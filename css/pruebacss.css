@@ -11,8 +11,9 @@
   grid-template-columns: repeat(4, 1fr); }
 
 .imgGaleria {
+  background-size: 100% 100%;
   width: 500px;
-  height: 450px; }
+  height: 225px; }
 
 .imgGaleria:hover {
   transform: scale(1.2, 1.2); }
@@ -43,9 +44,23 @@
   text-align: center; }
 
 .reseniasImagen {
-  width: 100%;
   border-top-left-radius: 15px;
-  border-top-right-radius: 15px; }
+  border-top-right-radius: 15px;
+  background-size: cover;
+  max-width: 100%;
+  object-fit: cover;
+  background-position: center; }
+
+#publicidad {
+  display: block;
+  max-width: 100%;
+  height: 1100px;
+  width: 600px; }
+
+.card-img-top {
+  width: 286px;
+  height: 286px;
+  background-size: 100% 100%; }
 
 .encabezado {
   grid-area: header; }
@@ -68,6 +83,9 @@
 
 .form {
   grid-area: form; }
+
+.nosotros {
+  grid-area: nosotros; }
 
 .linked a:hover {
   background-color: powderblue; }
@@ -92,10 +110,13 @@
   height: 15rem;
   max-width: 100%;
   position: relative;
-  text-align: center; }
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  min-height: 100%; }
 
 .backgroundImage {
-  background-image: url(../images/taller.jpg); }
+  background-image: url(../images/Hamburguesaportada.jpg); }
 
 a {
   text-decoration: none;
@@ -107,44 +128,25 @@ a {
 .linked a:hover {
   background-color: powderblue; }
 
-.btn-primary {
-  background-color: blue; }
-
-.btn-secondary {
-  background-color: grey; }
-
-.btn-success {
-  background-color: green; }
-
-.btn-warning {
-  background-color: yellow; }
-
-.text-primary {
-  background-color: blue; }
-
-.text-secondary {
-  background-color: grey; }
-
-.text-success {
-  background-color: green; }
-
-.text-warning {
-  background-color: yellow; }
-
-.card {
-  background-color: #c9340f;
-  text-align: center;
-  padding: 1rem;
-  font-size: 35px; }
-
 h1 {
-  text-align: center;
-  color: #c9340f; }
+  text-align: center; }
+
+.nosotrosfoto {
+  width: 60%;
+  height: 250px;
+  background-size: cover;
+  max-width: 100%;
+  object-fit: cover;
+  background-position: center; }
+
+.centrado {
+  text-align: center; }
+
+h2 {
+  text-align: center; }
 
 img {
-  border-radius: 15px;
-  width: 200px;
-  height: 150px; }
+  border-radius: 15px; }
 
 @media (max-width: 768px) {
   .padreGaleria {

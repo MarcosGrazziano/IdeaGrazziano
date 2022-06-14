@@ -3,9 +3,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto Taller</title>
-    <meta name="keywords" content="TALLER, MECANICO, AUTO, REPARAR">
-    <meta name="description" content="Pagina para contacto con el taller">
+    <title>Contacto</title>
+    <meta name="keywords" content="hamburguesas, contacto, comida, rapida">
+    <meta name="description" content="pagina para contactar hamburgueseria">
+    <link rel="icon" href="../images/logo.png">
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -13,17 +14,17 @@
   <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/pruebacss.css">
 </head>
-<body class="letraBlanca">
+<body>
     <div class="padreContacto">
         <header class="encabezado">
-            <div class="parallax backgroundImage animate__animated animate__zoomIn">Taller Joaquin</div>
+            <div class="parallax backgroundImage animate__animated animate__zoomIn">Hamburgueseria Marcos</div>
         </header>
         
        
         <div class="linked">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
-                  <a class="navbar-brand" href="#">Navbar</a>
+                  <h3>Hamburgueseria</h3>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
@@ -36,6 +37,12 @@
                         <a class="nav-link" href="galeria.html">Galeria</a>
                       </li>
                       <li class="nav-item">
+                        <a class="nav-link" href="nosotros.html">Nosotros</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="locales.html">Locales</a>
+                      </li>
+                      <li class="nav-item">
                         <a class="nav-link active" href="contacto.html">Contacto</a>
                       </li>
                   </div>
@@ -46,30 +53,32 @@
    
     
     
-            <form class="form letraNegra" action="">
+            <form class="form letraNegra centrado" action="">
+              
                 <fieldset>
-                    <legend>Contactanos</legend><br>
+                    <legend class="btn-secondary">Contactanos</legend><br>
                     <label for="nombre">Nombre</label><br>
                     <input type="text" name="nombre"><br>
                     <label for="telefono">Telefono</label><br>
                     <input type="number" name="telefono"><br>
                     <label for="email">Email</label><br>
                     <input type="email" name="email"><br>
-                    <label for="">Con que vehiculo tenes problemas?</label> <br>
-                    <input type="checkbox" value="a" name="auto"> Auto <br>
-                    <input type="checkbox" value="m" name="moto"> Moto <br>
-                    <input type="checkbox" value="c" name="camion"> Camion <br>
-                    <textarea name="consulta" placeholder="Cuentenos su problema"></textarea> <br>
+                    <label for="">Que hamburguesa es tu preferida</label> <br>
+                    <input type="checkbox" value="a" name="cheddar"> Cheddar <br>
+                    <input type="checkbox" value="m" name="bacon"> Bacon <br>
+                    <input type="checkbox" value="c" name="pollo"> Pollo <br>
+                    <input type="checkbox" value="g" name="palta"> Palta <br>
+                    <textarea name="consulta" placeholder="Por que es su preferida"></textarea> <br>
                     <button type="submit" class="btn btn-primary">
                         Enviar
                         </button>
                 </fieldset>
+              </div>
             </form>
+
             <footer class="pie fondoNegro letraBlanca">
-                <h3>Logo</h3>
-                <h3>ubicacion</h3>
-                <h3>contacto</h3>
-                <h3>derechos</h3>
+              <h3>Contacto: 11 2532-5677</h3>
+            <h3>Todos los derechos reservados</h3>
                 
             </footer>
         </div>

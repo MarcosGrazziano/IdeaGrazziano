@@ -20,7 +20,25 @@
 
 }
 .reseniasImagen{
-    width: 100%;
+   
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+
+    background-size: cover;
+    max-width: 100%;
+    object-fit: cover;
+    background-position: center;
 }
+#publicidad {
+   display: block;
+   max-width: 100%;
+   
+   height: 1100px;
+   width: 600px;
+}
+.card-img-top{
+    width: 286px;
+    height: 286px;
+    background-size: 100% 100%;
+}
+
